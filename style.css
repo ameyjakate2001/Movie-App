@@ -131,5 +131,6 @@ html,body{
     .buton{
         width:18%;
         font-size: 0.8em;
+        font-family:sans-serif;
     }
 }
