@@ -1,0 +1,135 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+html,body{
+    overflow-x: hidden;
+    background: #2c3e50 no-repeat 50%/cover !important;
+    min-height: 100vh;
+    color: #212529;
+    font-family: Arial,Helvetica,sans-serif;
+}
+.all-container{
+    min-height: 100vh;
+}
+.head-title{
+    margin: 0 0 0 4%;
+    font-size: 1.25em;
+}
+.header{
+    width: 100%;
+    background: black;
+    color: white;    
+    padding: 15px 0;
+}
+.heading{
+    padding-left: 5%;
+    color: greenyellow;
+    font-weight: bold;
+    vertical-align: middle;
+}
+#main{
+    text-align: center;
+    margin: 5%;
+}
+.inputValue{
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3em;
+    padding:10px;
+    width:40%;
+    height: 40px;
+    outline: none;
+    border: none;
+    background: #e7e7e7;
+}
+.input,.buton:focus{
+  outline: none;
+}
+.buton{
+    border:none;
+    font-family: cursive;
+    background: #e7e7e7;
+    padding:5px 5px;
+    height: 40px;
+    width: 13%;
+}
+
+
+
+
+/* All Description */
+
+.rslt{
+    font-size: 2rem !important;
+}
+.information{
+    max-width: 100%;
+    margin-bottom: 2rem;
+    text-align: center;
+    margin:0 auto;
+}
+.individual-block{
+    position: relative;
+    height: 450px;
+}
+.individual-block:hover .text{
+  opacity: 1;
+  transition: 0.5s all ease-in-out;
+}
+.individual-block:hover .faded{
+  opacity: 0.3;
+  transition: 0.5s all ease-in-out;
+}
+.box{
+    color: rgb(122, 253, 122) !important;
+    width: 310px;
+    height: 100%;
+    margin: 0 auto;
+}
+.faded{
+    opacity: 1;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    opacity:0;
+    background: transparent!important;
+    border: none;
+}
+.title{
+    overflow: hidden;
+    color:greenyellow;
+    max-height: 85px;
+    font-size: 2rem;
+}
+.rating{
+    color:greenyellow !important;
+}
+.release-date{
+    font-size:1rem;
+}
+.overview{
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: white;
+    max-height: 240px;
+    overflow: hidden;
+}
+
+
+ /* meadia queries */
+
+@media only screen and (max-width:640px){
+    .inputValue{
+        font-size: 0.7em;
+    }
+    .buton{
+        width:18%;
+        font-size: 0.8em;
+    }
+}
